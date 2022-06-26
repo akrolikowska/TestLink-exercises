@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<testcases>
+<testcase internalid="19" name="Gmail Login test_1">
+	<node_order><![CDATA[1001]]></node_order>
+	<externalid><![CDATA[3]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[<p>Testing Gmail Login Functionality with Valid user id and password</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Open www.gmail.com on webbrowser.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Gmail home pahe opened.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Type Valid gmail id in mail id section.</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Click on next.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>One webpage which gives an option to enter password.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Enter correct password.</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Click on Sign in.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Logged in to Gmail.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<keywords><keyword name="Gmail"><notes><![CDATA[
+
+]]></notes></keyword>
+<keyword name="Login Functionality"><notes><![CDATA[
+
+]]></notes></keyword>
+<keyword name="Valid password"><notes><![CDATA[
+
+]]></notes></keyword>
+</keywords><platforms/>
+
+</testcase>
+</testcases>
